@@ -1,0 +1,3 @@
+[submodule "swd6_hpp"]
+	path = swd6_hpp
+	url = https://github.com/ARCTraining/swd6_hpp.git
