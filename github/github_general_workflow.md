@@ -7,7 +7,7 @@ Based on this video: https://www.youtube.com/watch?v=GgjIvUrOpmg
 ### Starting New Branch
 
 Check what branches exist with
-	
+
 	` git branch -a `
 
 
@@ -25,7 +25,7 @@ Make a new branch
 If you make a change, use the below
 
 	` git add -A `
-	` git commit -n `
+	` git commit -m `
 
 
 
@@ -47,15 +47,15 @@ Push the commits to github
 
 Can pull from the GitHub account. This will merge your branch with the master branch
 
-Can press "Compare & pull request" button on GitHub page, will pop up after you've pushed to GitHub 
+Can press "Compare & pull request" button on GitHub page, will pop up after you've pushed to GitHub
 
-OR 
+OR
 
 1. Go to "Pull requests" tab
 2. Press "New pull request"
-3. Set base as "master", set compare to "my-branch". Will tell you if you can merge it. 
+3. Set base as "master", set compare to "my-branch". Will tell you if you can merge it.
 4. Then create pull request with button. Can give it a name and add some comments.
-5. Submit. Others in the team can add comments before the final merge. 
+5. Submit. Others in the team can add comments before the final merge.
 6. Once you're all happy, can press the final merge and delete the branch my-branch
 
 
@@ -66,7 +66,7 @@ OR
 
 Want to then pull the updated master from GitHub.
 
-	` git co master ` # Checkout the master 
+	` git co master ` # Checkout the master
 	` git pull ` # To pull the changed master locally
 	` git log ` # To check proper merging of GitHub master with local
 	` git branch --delete my-branch ` # To delete local branch
@@ -80,7 +80,7 @@ Want to then pull the updated master from GitHub.
 
 Basically just do the above but if it conflicts with a change made to the master branch etc. Push it to git and then go to GitHub. Keep going and open a pull request.
 
-If there's a conflict, it will automatically tell you that there's a conflict and won't let you merge, but you can still create a merge request. Can resolve the conflict on GitHub, isolating where the conflict was. 
+If there's a conflict, it will automatically tell you that there's a conflict and won't let you merge, but you can still create a merge request. Can resolve the conflict on GitHub, isolating where the conflict was.
 
 
 
